@@ -1,10 +1,8 @@
-package Trigonometria;
+package model.Trigonometria;
 
 import Ferramentas.Color;
 import Ferramentas.Delay;
 import Ferramentas.Reader;
-
-import java.util.Scanner;
 
 public class Trigonometria
 {
