@@ -1,4 +1,4 @@
-package NumerosComplexos;
+package model.NumerosComplexos;
 
 import Ferramentas.Color;
 
