@@ -1,4 +1,4 @@
-package Conversoes;
+package model.Conversoes;
 
 import Ferramentas.Color;
 import Ferramentas.Delay;
