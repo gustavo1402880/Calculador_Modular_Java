@@ -1,4 +1,4 @@
-package Teoria;
+package model.Teoria;
 
 import Ferramentas.Color;
 import Ferramentas.Delay;
