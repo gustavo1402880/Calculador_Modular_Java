@@ -1,6 +1,7 @@
 package Conversoes;
 
 import Ferramentas.Color;
+import Ferramentas.Delay;
 import Ferramentas.Reader;
 
 import java.util.concurrent.ExecutionException;
@@ -26,7 +27,15 @@ public class Processamento
                 default -> Double.NaN;
             };
 
-
+            if(Double.isNaN(result))
+            {
+                System.out.println(Color.VERMELHO + "Opção Inválida " + Color.RESET);
+                Delay.sleep(1500);
+            }
+            else
+            {
+                System.out.println("= " + result);
+            }
         }
         catch (Exception e)
         {
