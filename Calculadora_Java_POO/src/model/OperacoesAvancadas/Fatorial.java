@@ -1,4 +1,4 @@
-package OperacoesAvancadas;
+package model.OperacoesAvancadas;
 
 import Ferramentas.Color;
 import Ferramentas.Reader;
