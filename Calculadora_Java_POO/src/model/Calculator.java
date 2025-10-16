@@ -17,6 +17,10 @@ public abstract class Calculator
     {
         atualValue = Double.NaN;
     }
+    public boolean hasValue()
+    {
+        return !Double.isNaN(atualValue);
+    }
     public void showVisor()
     {
         if(Double.isNaN(getAtualValue()))
