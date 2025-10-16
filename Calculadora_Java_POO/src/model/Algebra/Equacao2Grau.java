@@ -5,7 +5,7 @@ import Ferramentas.Reader;
 
 public class Equacao2Grau
 {
-    public static void opration()
+    public static void operation()
     {
         try
         {

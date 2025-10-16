@@ -26,7 +26,7 @@ public abstract class Calculator
         if(Double.isNaN(getAtualValue()))
         {
             System.out.println("--------------------------");
-            System.out.println("    CALCULADORA VAZIA     ");
+            System.out.println("= 0.0     ");
             System.out.println("--------------------------");
         }
         else

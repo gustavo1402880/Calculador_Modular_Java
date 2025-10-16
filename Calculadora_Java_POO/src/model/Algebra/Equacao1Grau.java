@@ -5,7 +5,7 @@ import Ferramentas.Reader;
 
 public class Equacao1Grau
 {
-    public static void opration()
+    public static void operation()
     {
         try {
             System.out.println("Equação: ax + b = 0");
